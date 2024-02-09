@@ -1,3 +1,25 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+/* CSS */
+/* Hide scrollbar for Safari, Edge, and Firefox */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* For Chrome, Edge, and Firefox */
+body {
+  scrollbar-width: thin; /* "auto" or "thin" for Chrome, "auto" for Firefox, "thin" for Edge */
+  scrollbar-color: #4a5568 rgb(226 232 240); /* scroll thumb color #4A5568 and scroll track color #CBD5E0 */
+}
+
+/* For IE */
+body {
+  scrollbar-3dlight-color: #cbd5e0; /* light shadow color */
+  scrollbar-highlight-color: #cbd5e0; /* highlight color */
+  scrollbar-face-color: #4a5568; /* scroll thumb color */
+  scrollbar-shadow-color: #4a5568; /* shadow color */
+  scrollbar-darkshadow-color: #4a5568; /* dark shadow color */
+  scrollbar-arrow-color: #4a5568; /* arrow color */
+}

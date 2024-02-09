@@ -24,7 +24,7 @@ function App() {
       element: <Dashboard />,
     },
     {
-      path: "/send",
+      path: "/send/:id",
       element: <SendMoney />,
     },
     {
